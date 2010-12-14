@@ -36,14 +36,15 @@ SUPER EXCITING
 OTHER THINGS and REQUIREMENTS and BORING STUFF
 ----------------------------------------------
 
-*   Node 0.3
+*   **Node 0.3**
 
-*   Node Compress To get this to work, you will have to clone [my fork of node-compress](https://github.com/chrisdickinson/node-compress) which
-moves to the newer Buffer API, as well as sets the window bits for deflate to work properly with git objects.
+*   **NPM** After cloning this repo, `npm install .` it.
 
-*   A git repo.
+*   **Node Compress** To get this to work, you will have to clone [my fork of node-compress](https://github.com/chrisdickinson/node-compress) which
+moves to the newer Buffer API, as well as sets the window bits for deflate to work properly with git objects. After cloning it, `cd` into that directory
+and `npm install .`.
 
-*   Please don't get too grossed out by the ... relative lack of quality of the code. It will get better, I promise. This was largely a *beat it
+*   **A sense of humor, hopefully** Please don't get too grossed out by the ... relative lack of quality of the code. It will get better, I promise. This was largely a *beat it
 with hammers until it works* sort of ordeal, and there are, of course, kinks to be ironed out. I'd love to end up using node-seq for a big chunk of this
 stuff. It looks neat. 
 

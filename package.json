@@ -1,0 +1,14 @@
+{
+    "name": "tempis",
+    "version":"0.0.1",
+    "description": "a native node.js git client",
+    "keywords": [ 
+        "git",
+        "dvcs",
+        "vcs",
+        "versioning"
+    ],
+    "author":"Chris Dickinson",
+    "directories": {"lib": "./lib" },
+    "main": "./lib/index"
+}
