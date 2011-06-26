@@ -11,8 +11,10 @@ update: uninstall install
 install:
 	@@mkdir -p $(INSTALL_PATH)
 	@@mkdir -p $(INSTALL_PATH)/lib
+	@@mkdir -p $(INSTALL_PATH)/lib/odb
+	@@mkdir -p $(INSTALL_PATH)/lib/types
 
-	@@cp -f $(BASE)/lib/* $(INSTALL_PATH)/lib/
+	@@cp -f -r $(BASE)/lib/* $(INSTALL_PATH)/lib/
 	@@cp -f $(BASE)/package.json $(INSTALL_PATH)/
 
 	@@echo "Installed to $(INSTALL_PATH)"
