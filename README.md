@@ -3,6 +3,14 @@ TEMPIS FUGIT
 
     "Time flies when you're using GIT"
 
+# Goals of this fork #
+
+* Remove all third-party dependancies
+* Cross browser/platform clientside support
+* Project makeover (structure, standards, etc)
+* Unit tests
+* Revamping the API to be more like nodegit
+
 
 ** SEE THE BOTTOM FOR REQUIREMENTS **
 
