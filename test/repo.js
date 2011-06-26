@@ -93,5 +93,33 @@ module.exports = exports = {
         assert.deepEqual(data.odb(), tempis.Repository.DEFAULT_ODB_LIST);
       }));
     }
+  ),
+  'Test of repository basic api existance':platoon.unit({},
+    function(assert) {
+      "Test that Repository has basic lookups"
+      assert.ok(tempis.Repository.prototype.lookup);
+      assert.ok(tempis.Repository.prototype.lookupTag);
+      assert.ok(tempis.Repository.prototype.lookupRef);
+      assert.ok(tempis.Repository.prototype.lookupOID);
+      assert.ok(tempis.Repository.prototype.lookupRemote);
+      assert.ok(tempis.Repository.prototype.remotes);
+      assert.ok(tempis.Repository.prototype.refs);
+      assert.ok(tempis.Repository.prototype.head);
+    },
+
+    function(assert) {
+      "Test that Repository has basic write commands"
+      assert.ok(tempis.Repository.commit);
+      assert.ok(tempis.Repository.blob);
+      assert.ok(tempis.Repository.tree);
+      assert.ok(tempis.Repository.tag);
+    }
+
+    function(assert) {
+      "Test that Repository has basic communications"
+      assert.ok(tempis.Repository.fetch);
+      assert.ok(tempis.Repository.push);
+      assert.ok(tempis.Repository.pull);
+    }
   )
 };
