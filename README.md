@@ -48,3 +48,7 @@ and `npm install .`.
 with hammers until it works* sort of ordeal, and there are, of course, kinks to be ironed out. I'd love to end up using node-seq for a big chunk of this
 stuff. It looks neat. 
 
+
+LICENSE
+-------
+All files are licensed under the MIT License, unless explicitly licensed otherwise in the file itself (e.g., the `vendor/jxgcompressor.js` is LGPL.)
